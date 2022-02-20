@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+* {font-family:sans-serif; text-align:center}
+h1 {
+	color:#FFF;
+}
+h2{
+	color:#FFF;
+}
+p {
+	color:#FFF;
+}
+
+#titlename {
+	font-size:50px;
+	text-align:center;
+	color:#FFF;
+}
+.menu >ul {
+	list-style-type:none;
+	margin:0;
+	padding:20;
+	overflow:hidden;
+}
+.menu >ul >li {
+	float:center;
+	margin-top:12.5px;
+	display:inline-block;
+	font-weight:bold;
+	font-size:20px;
+	padding:20px;
+}
+.menu >ul >li >a{
+	text-decoration:none;
+	color: white;
+	text-align:center;
+	padding: 20px 30px;
+
+}
+.menu >ul >li >a:hover {
+	border: 2px solid #fff;
+}
+
+.TimeTable table {
+	border-color:#FFF;
+	border-collapse:collapse;
+}
+
+
+.TimeTable table tr td{
+	padding:5px;
+	border:4px solid #fff;
+	color:#FFF;
+  width: 9%;
+  	-webkit-transition: all .3s;
+  	-moz-transition: all .3s;
+  	-o-transition: all .3s;
+  	transition: all .3s;
+  	transition-timing-function: ease-in-out;
+  	-moz-transition-timing-function: ease-in-out;
+  	-webkit-transition-timing-function: ease-in-out;
+  	-o-transition-timing-function: ease-in-out;
+}
+
+.TimeTable table tr th{
+	padding:10px;
+	border:4px solid #fff;
+	color:#FFF;
+  width: 9%;
+}
+
+.TimeTable table tr th h3 {
+	margin-top: 0em;
+	margin-bottom: -1em
+}
+
+.TimeTable table tr th h6 {
+	margin-top: 1;
+	margin-bottom: 0em
+}
+
+.TimeTable table tr td:hover {
+	background-color:#FFF;
+	color:#000;
+	width:5%;
+}
+
+.TimeTable table tr td:hover >h3 >a {
+	color:#000;
+}
+
+.TimeTable table tr td:hover >h3 {
+	color:#000;
+}
+
+.TimeTable a {
+	text-decoration:none;
+	color:#FFF;
+}
